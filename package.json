@@ -1,0 +1,26 @@
+{
+  "name": "@tailify/prettier-config",
+  "version": "0.0.0",
+  "description": "Tailify's very own opinionated Prettier configuration",
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "tailify/prettier-config",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "license": "UNLICENSED",
+  "bugs": "https://github.com/tailify/prettier-config/issues",
+  "homepage": "https://github.com/tailify/prettier-config#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
