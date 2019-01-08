@@ -1,5 +1,7 @@
 'use strict';
 
+const { configs: jestConfig } = require('eslint-plugin-jest');
+
 module.exports = {
   root: true,
   env: {
@@ -19,4 +21,13 @@ module.exports = {
     'quotes': ['error', 'single', { avoidEscape: true }],
     'sort-keys': 'error',
   },
+  overrides: [
+    {
+      files: ['**/*.test.js'],
+      ...jestConfig.recommended,
+      env: {
+        jest: true,
+      },
+    },
+  ],
 };
