@@ -7,7 +7,9 @@
     "lib/index.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint && npm run test-only",
+    "test-only": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "tailify/prettier-config",
   "keywords": [
@@ -17,6 +19,13 @@
   "license": "UNLICENSED",
   "bugs": "https://github.com/tailify/prettier-config/issues",
   "homepage": "https://github.com/tailify/prettier-config#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.0"
+  },
   "engines": {
     "node": ">=8"
   },
