@@ -1,7 +1,3 @@
 'use strict';
 
-module.exports = {
-  printWidth: 100,
-  singleQuote: true,
-  trailingComma: 'es5',
-};
+module.exports = require('./lib/index');
