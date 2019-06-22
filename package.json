@@ -21,7 +21,7 @@
   "homepage": "https://github.com/tailify/prettier-config#readme",
   "devDependencies": {
     "@tailify/eslint-config-legacy": "^2.0.0",
-    "eslint": "^5.12.0",
+    "eslint": "^6.0.0",
     "jest": "^24.7.0",
     "prettier": "^1.15.0"
   },
