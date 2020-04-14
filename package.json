@@ -22,6 +22,7 @@
   "devDependencies": {
     "@tailify/eslint-config-legacy": "^7.0.0",
     "eslint": "^6.0.0",
+    "eslint-plugin-jest": "^23.8.2",
     "jest": "^25.3.0",
     "prettier": "^1.15.0"
   },

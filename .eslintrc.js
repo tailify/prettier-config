@@ -2,12 +2,14 @@
 
 module.exports = {
   extends: ['@tailify/legacy'],
+  overrides: [
+    {
+      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
+      files: ['*.test.js'],
+      parserOptions: {
+        ecmaVersion: 2015,
+      },
+    },
+  ],
   root: true,
-  parserOptions: {
-    ecmaVersion: 2019,
-  },
-  env: {
-    jest: true,
-    es6: true,
-  },
 };
