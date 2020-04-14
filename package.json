@@ -1,6 +1,6 @@
 {
   "name": "@tailify/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Tailify's very own opinionated Prettier configuration",
   "main": "lib/index.js",
   "files": [
