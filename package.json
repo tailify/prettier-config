@@ -20,7 +20,7 @@
   "bugs": "https://github.com/tailify/prettier-config/issues",
   "homepage": "https://github.com/tailify/prettier-config#readme",
   "devDependencies": {
-    "@tailify/eslint-config-legacy": "^8.0.1",
+    "@tailify/eslint-config-legacy": "^8.0.3",
     "eslint": "^6.0.0",
     "eslint-plugin-jest": "^23.8.2",
     "jest": "^25.3.0",
@@ -30,7 +30,7 @@
     "prettier": "^2.0.1"
   },
   "engines": {
-    "node": ">=10.20.1"
+    "node": ">=10.16.0"
   },
   "publishConfig": {
     "access": "public"
