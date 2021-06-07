@@ -23,7 +23,7 @@
     "@tailify/eslint-config-legacy": "^8.0.3",
     "eslint": "^6.0.0",
     "eslint-plugin-jest": "^23.8.2",
-    "jest": "^26.0.1",
+    "jest": "^27.0.4",
     "prettier": "2.1.0"
   },
   "peerDependencies": {
